@@ -583,6 +583,11 @@ nav.wrap {
   padding: 18px 20px;
   margin-bottom: 12px;
 }
+.stat-card1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .stat-card .num {
   font-family: var(--font-display);
