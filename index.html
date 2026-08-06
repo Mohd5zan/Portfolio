@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Faizan — Full-Stack Developer</title>
+  <meta name="description"
+    content="Mohammad Faizan — Full-stack developer building secure, database-driven web applications with Node.js, Express, MongoDB and React.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;450;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="wrap">
+      <a href="#top" class="logo"><span class="dot"></span>faizan.dev</a>
+      <div class="navlinks" id="navlinks">
+        <a href="#about">/about</a>
+        <a href="#experience">/experience</a>
+        <a href="#projects">/projects</a>
+        <a href="#skills">/skills</a>
+        <a href="#contact">/contact</a>
+      </div>
+      <a class="nav-cta" href="mailto:mohammadfaizan994812@gmail.com">Get in touch</a>
+      <button class="navtoggle" id="navtoggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="resume-bar">
+    <div class="wrap resume-bar-inner">
+      <span class="resume-bar-text">📄 Want the full breakdown, offline?</span>
+      <a class="btn btn-primary btn-sm" href="assets/Mohammad_Faizan_Resume.pdf" download="Mohammad_Faizan_Resume.pdf">
+        Download CV ↓
+      </a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" style="border-top:none;">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">status: open to opportunities</div>
+          <h1>Full-stack developer<br>who ships <span class="accent">production-ready</span> web apps.</h1>
+          <p class="lede">I'm Mohammad Faizan — a Computer Science graduate building secure, database-driven
+            applications end to end with Node.js, Express, MongoDB and React, backed by a strong foundation in C++ and
+            Data Structures & Algorithms.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects →</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Jagtial, Telangana, India</span>
+            <span>🎓 B.Tech CSE, 2025</span>
+            <span>💼 Open to full-stack roles</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="avatar-wrap">
+            <div class="avatar-orbit">
+              <img class="avatar-photo" src="images/f1.jpg" alt="Mohammad Faizan">
+              <svg class="avatar-ring-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs>
+                  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FFB454" />
+                    <stop offset="100%" stop-color="#8B7CFF" />
+                  </linearGradient>
+                </defs>
+                <rect class="avatar-ring" x="10" y="10" width="180" height="180" rx="24" fill="none"
+                  stroke="url(#ringGrad)" stroke-width="1.5" stroke-dasharray="3 6" opacity="0.6" />
+              </svg>
+            </div>
+            <span class="avatar-status"><span class="dot"></span>available</span>
+          </div>
+
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="label">GET /api/profile</span>
+            </div>
+            <div class="terminal-body" id="typewriter"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">about</div>
+            <h2>Grounded in fundamentals,<br>built for the full stack.</h2>
+          </div>
+          <span class="route-tag">GET /about</span>
+        </div>
+        <div class="about-grid reveal">
+          <div>
+            <p>I build responsive, secure, and maintainable web applications — from database schema to deployed
+              interface. My work spans REST API design, authentication, cloud-based storage, and the React front ends
+              that sit on top of them.</p>
+            <p>Alongside development, I have a research background in evaluating business ideas through structured
+              literature review, and I stay sharp on core CS fundamentals — DSA, OOP, DBMS, and operating systems — that
+              underpin every system I design.</p>
+            <p>Currently completing my B.Tech in Computer Science and Engineering at Vardhaman College of Engineering,
+              Hyderabad, with a CGPA of 8.3/10.</p>
+          </div>
+          <div>
+            <div class="stat-card">
+              <div class="num">8.3<span style="font-size:15px;color:var(--text-dim);">/10</span></div>
+              <div class="lbl">CGPA — B.Tech CSE</div>
+            </div>
+            <div class="stat-card">
+              <div class="num">1300+</div>
+              <div class="lbl">LeetCode rating</div>
+            </div>
+            <div class="stat-card">
+              <div class="num">400+</div>
+              <div class="lbl">Problems solved — CodeChef</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">experience</div>
+            <h2>Where I've worked.</h2>
+          </div>
+          <span class="route-tag">GET /experience</span>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-date">Oct 2023 – Nov 2023</div>
+          <div class="exp-role">
+            <h3>Web Development Intern</h3>
+            <span class="exp-org">Cognifyz Technologies</span>
+            <p>Developed responsive web pages and interactive user interfaces using HTML, CSS and JavaScript. Applied
+              debugging and problem-solving techniques to improve code quality, strengthen web development fundamentals,
+              and improve overall user experience.</p>
+            <div class="exp-links">
+              <a class="chip" href="https://github.com/Mohd5zan/Grid_UI" target="_blank" rel="noopener">GitHub
+                repository ↗</a>
+              <a class="chip" href="https://drive.google.com/file/d/1N1YyDXAKBMQXmBLGZWvWpkFOweAxQHj-/view"
+                target="_blank" rel="noopener">Certificate ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-date">Apr 2025</div>
+          <div class="exp-role">
+            <h3>Research Contributor</h3>
+            <span class="exp-org">Firm Facilitator — Evaluate & Enhance Business Ideas</span>
+            <p>Conducted an in-depth literature review and research analysis, evaluating existing methodologies and
+              identifying key gaps to support business idea assessment and improvement.</p>
+            <div class="exp-links">
+              <a class="chip" href="https://drive.google.com/file/d/1xgSX4ZuNGTvs9cCdefTFRcxgbsJH9gyt/view"
+                target="_blank" rel="noopener">Certificate ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">projects</div>
+            <h2>Things I've built.</h2>
+          </div>
+          <span class="route-tag">GET /projects</span>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <span class="project-route">POST /api/shorten</span>
+            <h3>LittleLink</h3>
+            <span class="project-year">URL Shortener · 2026</span>
+            <ul>
+              <li>Full-stack URL-shortening platform with secure JWT-based authentication</li>
+              <li>11+ RESTful backend routes and 6 responsive pages for generation, redirection, analytics and account
+                management</li>
+              <li>Real-time click tracking and visit-history analytics on MongoDB Atlas, deployed on Render</li>
+            </ul>
+            <div class="stack-row">
+              <span class="stack-tag">Node.js</span><span class="stack-tag">Express</span><span
+                class="stack-tag">MongoDB</span><span class="stack-tag">EJS</span><span class="stack-tag">JWT</span>
+            </div>
+            <div class="demo-git">
+              <a class="project-link" href="https://github.com/Mohd5zan/LittleLink" target="_blank" rel="noopener">
+                GitHub ↗</a>
+              <a class="project-link" href="https://littlelink-zca7.onrender.com/" target="_blank" rel="noopener">Live
+                demo</a>
+            </div>
+
+          </div>
+
+          <div class="project-card reveal">
+            <span class="project-route">GET /tasks</span>
+            <h3>Advanced To-Do</h3>
+            <span class="project-year">Productivity Web App · Oct 2024</span>
+            <ul>
+              <li>Task priority management with real-time progress tracking</li>
+              <li>Persisted tasks and completion status across sessions using browser localStorage</li>
+              <li>Built solo as frontend developer, focused on interaction detail</li>
+            </ul>
+            <div class="stack-row">
+              <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span><span
+                class="stack-tag">JavaScript</span><span class="stack-tag">LocalStorage</span>
+            </div>
+            <div class="demo-git">
+              <a class="project-link" href="https://github.com/Mohd5zan/Advance-ToDo-project" target="_blank"
+                rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <span class="project-route">GET /experience/animated</span>
+            <h3>Animated Website</h3>
+            <span class="project-year">Interactive Site · Dec 2025</span>
+            <ul>
+              <li>Scroll-based animations and element transitions built with GSAP</li>
+              <li>Image hover animations layered in for richer interaction</li>
+              <li>Built solo as frontend developer, focused on motion and polish</li>
+            </ul>
+            <div class="stack-row">
+              <span class="stack-tag">HTML</span><span class="stack-tag">CSS</span><span
+                class="stack-tag">JavaScript</span><span class="stack-tag">GSAP</span>
+            </div>
+            <div class="demo-git">
+              <a class="project-link" href="https://github.com/Mohd5zan/Animated-Website" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">skills</div>
+            <h2>The stack I work in.</h2>
+          </div>
+          <span class="route-tag">GET /skills</span>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <span class="route-tag">Languages</span>
+            <div class="skill-tags">
+              <span class="chip">C++</span><span class="chip">JavaScript</span><span class="chip">Java</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="route-tag">Frontend</span>
+            <div class="skill-tags">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Tailwind CSS</span><span
+                class="chip">EJS</span><span class="chip">React.js</span><span class="chip">GSAP</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="route-tag">Backend</span>
+            <div class="skill-tags">
+              <span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="route-tag">Databases</span>
+            <div class="skill-tags">
+              <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="route-tag">Tools</span>
+            <div class="skill-tags">
+              <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span
+                class="chip">Postman</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <span class="route-tag">Core CS</span>
+            <div class="skill-tags">
+              <span class="chip">DSA</span><span class="chip">OOP</span><span class="chip">DBMS</span><span
+                class="chip">Operating Systems</span><span class="chip">Computer Networks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS + CERTS -->
+    <section>
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">credentials</div>
+            <h2>Publications & certifications.</h2>
+          </div>
+          <span class="route-tag">GET /credentials</span>
+        </div>
+
+        <div class="split-two">
+          <div class="pub-card reveal">
+            <h3>Firm Facilitator — Evaluate & Enhance Business Ideas</h3>
+            <span class="exp-org">Research Contributor · Apr 2025</span>
+            <p>Contributed in-depth literature review and research analysis for a paper evaluating existing
+              methodologies and identifying key gaps in business idea assessment and improvement.</p>
+          </div>
+
+          <div class="cert-block reveal">
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li>Jobready Skills<span class="badge">Wadhwani Foundation</span> <a class="certificate" href="https://drive.google.com/file/d/1zXsnU5yeFqMpmIsuHB4HmyRIEBfRTjVv/view">Certificate</a></li>
+              <li>Smart Interview <span class="badge">Smart Coder</span> <a class="certificate" href="https://smartinterviews.in/certificate/7600e8b9">Certificate</a></li>
+              <li>Programming with Java <span class="badge">Infosys Springboard</span> <a class="certificate" href="https://drive.google.com/file/d/1QB8EKfdrhnpSUFCfJPX1itDHBJ1Bmq5C/view">Certificate</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cert-block reveal" style="margin-top:22px;">
+          <h3>Coding Profiles</h3>
+          <ul class="cert-list">
+            <li>LeetCode <span class="badge">1300+ rating</span></li>
+            <li>CodeChef <span class="badge">1111 rating </span></li>
+            <li>CodeForces <span class="badge"> 400+ problems solved</span></li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="wrap">
+        <div class="eyebrow reveal">contact</div>
+        <h2 class="reveal">Let's build something worth deploying.</h2>
+        <p class="reveal">I'm open to full-stack roles, freelance builds, and collaborations. The fastest way to reach
+          me is email — I usually reply within a day.</p>
+        <div class="contact-actions reveal">
+          <a class="btn btn-primary" href="mailto:mohammadfaizan994812@gmail.com">mohammadfaizan994812@gmail.com</a>
+          <a class="btn btn-ghost" href="tel:+916301514204">+91 63015 14204</a>
+        </div>
+        <div class="contact-row reveal">
+          <a href="linkedin.com/in/mohammad-faizan77/" target="_blank" rel="noopener">LinkedIn — Mohammad Faizan</a>
+          <a href="GitHub:https://github.com/Mohd5zan" target="_blank" rel="noopener">GitHub — Mohd5zan</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="wrap">
+    <span>© 2026 Mohammad Faizan</span>
+    <span>Built with Node.js, Express, MongoDB & React — and this page, with plain HTML/CSS/JS.</span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
